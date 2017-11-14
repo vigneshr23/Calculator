@@ -19,17 +19,19 @@ print("4. Divide")
 choice= input("Enter choice:(1/2/3/4):")
 num1= int(input("Enter first number: "))
 num2= int(input("Enter second number: "))
-if choice== '1':
+#print (type(choice) is int)
+#print choice 
+if choice == 1:
 	#print num1
 	#print(num1,"+",num2,"=")
 	#res=add(num1,num2)
 	#print res 
 	print add(num1,num2)
-elif choice=='2':
+elif choice == 2:
 	print(num1,"-",num2,"=",sub(num1,num2))
-elif choice == '3':
+elif choice == 3:
 	print(num1,"*",num2,"=",mul(num1,num2))
-elif choice=='4':
+elif choice == 4:
 	print(num1,"/",num2,"=",div(num1,num2))
 
 	
